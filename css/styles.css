@@ -1,0 +1,39 @@
+ header {
+  background: url('../img/bannerLogo.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+}
+
+#homeHeading {
+  color: white;
+}
+
+.brand-logo {
+  position: absolute;
+  top: -20px;  
+  width: 150px;
+  height: 150px;
+  background: url('../img/PS116ChessLogo.png');
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-content .header-content-inner {
+  color: #F05F40;
+}
+
+#bs-example-navbar-collapse-1 {
+  background-color: white;
+  margin-top: 45px;
+}
+
+@media (min-width: 768px) {
+  #bs-example-navbar-collapse-1 {margin-top: 0px;}
+}
