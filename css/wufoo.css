@@ -1,0 +1,42 @@
+
+/* Logo */
+#logo a {
+background-image:url('https://static1.squarespace.com/static/57692d0c03596ea068cbfed6/576971104402434eed559715/59556045b11be1c98617cdb6/1498837869364/PS116ChessLogo.png?format=750w');
+background-position: center;
+background-size: cover;
+}
+
+/* Backgrounds */
+html{background-image:none;background-color:#F05F40}
+#logo{background-image:none;background-color:#669900}
+#container{background:#FFFFFF;}
+.wufoo input.text, .wufoo textarea.textarea{background:#FFFFFF url(/images/fieldbg.gif) repeat-x top}
+.wufoo .focused{background:#F05F40}
+.wufoo .instruct{background-color:#F5F5F5}
+
+/* Borders */
+#container{border:0 solid #cccccc}
+.wufoo .info{border-bottom:1px dotted #CCCCCC}
+.wufoo .instruct{border:1px solid #e6e6e6}
+
+/* Typography */
+.wufoo { background-color: white; }
+.wufoo .info h2{font-size:160%;font-family:inherit;color:#000000}
+.wufoo .info div{font-size:95%;font-family:inherit;color:#444444}
+.wufoo .section h3{font-size:110%;font-family:inherit;background:#FFFFFF;color:#000000}
+.wufoo .section div{font-size:85%;font-family:inherit;color:#444444}
+.wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:inherit;color:#444444}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#444444}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit;color:#333333}
+.wufoo label.choice{color:#444444}
+.wufoo .instruct{font-size:80%;font-family:inherit;color:#444444}
+
+.bullet {
+list-style: disc;
+}
+
+.bullet li {
+margin-left: 20px;
+font-size: 1.1em;
+padding: 5px;
+}
